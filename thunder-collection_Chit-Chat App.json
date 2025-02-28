@@ -1,0 +1,118 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Chit-Chat App",
+    "collectionId": "38348bcc-14d4-485b-a077-599b9a455240",
+    "dateExported": "2025-02-02T07:16:02.045Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6d506a66-d89f-4e36-97d7-592ff50b3107",
+            "colId": "38348bcc-14d4-485b-a077-599b9a455240",
+            "containerId": "",
+            "name": "Register",
+            "url": "http://localhost:8000/api/v1/user/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-01-20T07:06:42.325Z",
+            "modified": "2025-01-20T07:06:42.325Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"sagar\",\n  \"email\":\"sagarlokhande@gmail.com\",\n  \"password\":\"sagar\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "736da030-7632-4605-bcba-4ef53f3d593c",
+            "colId": "38348bcc-14d4-485b-a077-599b9a455240",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost:8000/api/v1/user/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-01-20T07:15:02.419Z",
+            "modified": "2025-01-21T06:09:22.215Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"sagarlokhande@gmail.com\",\n  \"password\": \"sagar\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "f1f93856-b54a-4886-a7aa-889692b2315b",
+            "colId": "38348bcc-14d4-485b-a077-599b9a455240",
+            "containerId": "",
+            "name": "Logout",
+            "url": "http://localhost:8000/api/v1/user/logout",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-01-20T07:16:43.066Z",
+            "modified": "2025-01-21T05:53:48.033Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"swastikpalkar@gmail.com\",\n  \"password\":\"swastik\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "8629e1b5-8b69-4aab-995e-faa235362441",
+            "colId": "38348bcc-14d4-485b-a077-599b9a455240",
+            "containerId": "",
+            "name": "suggested",
+            "url": "http://localhost:8000/api/v1/user/suggested",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2025-01-21T05:56:13.745Z",
+            "modified": "2025-01-21T05:56:13.745Z",
+            "headers": []
+        },
+        {
+            "_id": "e27b61d5-fbed-436d-a3f0-1568ee1ead74",
+            "colId": "38348bcc-14d4-485b-a077-599b9a455240",
+            "containerId": "",
+            "name": "profilr",
+            "url": "http://localhost:8000/api/v1/user/678df530ba5d76d2ddc50f0d/profile",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2025-01-21T05:57:00.281Z",
+            "modified": "2025-01-21T05:57:00.281Z",
+            "headers": []
+        },
+        {
+            "_id": "953c37a0-8a76-4b93-b6e8-4e230b0c54e9",
+            "colId": "38348bcc-14d4-485b-a077-599b9a455240",
+            "containerId": "",
+            "name": "edit profile",
+            "url": "http://localhost:8000/api/v1/user/profile/edit",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2025-01-21T05:57:24.584Z",
+            "modified": "2025-01-21T05:57:24.584Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "bio",
+                        "value": "data scientist"
+                    },
+                    {
+                        "name": "gender",
+                        "value": "female"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "profilePicture",
+                        "value": "c:\\Users\\ADMIN\\Downloads\\WhatsApp Image 2025-01-08 at 1.43.37 PM.jpeg"
+                    }
+                ]
+            }
+        }
+    ],
+    "ref": "XfcbYgcjnbjcKblU63zBbEuhLIjZAFJvihZsqr5RImf_Dc49GvmJI-GKeYpFEKfbX2v6MJaCJffxCgBqcn5bkg"
+}
